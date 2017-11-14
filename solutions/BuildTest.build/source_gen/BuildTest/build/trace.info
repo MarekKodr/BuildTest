@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:057612fa-490e-4ce6-bd51-69b68f462bf0(BuildTest.build)/8291180326920959273">
+    <file name="BuildTest.xml">
+      <unit id="8291180326920959273" at="1,0,395,10" name="BuildTest.build.BuildTest" />
+    </file>
+  </root>
+  <root nodeRef="r:057612fa-490e-4ce6-bd51-69b68f462bf0(BuildTest.build)/8291180326920959393">
+    <file name="BuildTestDistribution.xml">
+      <unit id="8291180326920959393" at="1,0,139,10" name="BuildTest.build.BuildTestDistribution" />
+    </file>
+  </root>
+</debug-info>
+

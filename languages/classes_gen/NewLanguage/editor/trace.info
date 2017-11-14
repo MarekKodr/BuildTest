@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="EditorAspectDescriptorImpl.java">
+      <unit at="15,0,31,0" name="NewLanguage.editor.EditorAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:5ac7af52-c4da-4fe3-a62c-c9aebedc9419(NewLanguage.editor)/8291180326920958630">
+    <file name="TestConcept_Editor.java">
+      <node id="8291180326920958630" at="11,79,12,77" concept="6" />
+      <node id="8291180326920958630" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="8291180326920958630" at="11,79,12,77" />
+      <scope id="8291180326920958630" at="11,0,14,0">
+        <var name="editorContext" id="8291180326920958630" />
+        <var name="node" id="8291180326920958630" />
+      </scope>
+      <unit id="8291180326920958630" at="10,0,15,0" name="NewLanguage.editor.TestConcept_Editor" />
+    </file>
+    <file name="TestConcept_EditorBuilder_a.java">
+      <node id="8291180326920958630" at="18,91,19,19" concept="7" />
+      <node id="8291180326920958630" at="19,19,20,18" concept="1" />
+      <node id="8291180326920958630" at="25,26,26,18" concept="6" />
+      <node id="8291180326920958630" at="29,39,30,37" concept="6" />
+      <node id="8291180326920958632" at="33,48,34,89" concept="5" />
+      <node id="8291180326920958632" at="34,89,35,29" concept="1" />
+      <node id="8291180326920958632" at="35,29,36,42" concept="1" />
+      <node id="8291180326920958632" at="36,42,37,26" concept="5" />
+      <node id="8291180326920958632" at="37,26,38,63" concept="1" />
+      <node id="8291180326920958632" at="38,63,39,42" concept="1" />
+      <node id="8291180326920958632" at="39,42,40,28" concept="1" />
+      <node id="8291180326920958632" at="40,28,41,65" concept="1" />
+      <node id="8291180326920958632" at="41,65,42,73" concept="1" />
+      <node id="8291180326920958632" at="42,73,43,57" concept="5" />
+      <node id="8291180326920958632" at="44,35,45,87" concept="5" />
+      <node id="8291180326920958632" at="45,87,46,112" concept="6" />
+      <node id="8291180326920958632" at="47,10,48,22" concept="6" />
+      <node id="8291180326920958630" at="15,0,17,0" concept="2" trace="myNode" />
+      <node id="8291180326920958630" at="29,0,32,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8291180326920958630" at="18,0,22,0" concept="0" trace="TestConcept_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8291180326920958630" at="23,0,28,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="8291180326920958632" at="43,57,48,22" concept="3" />
+      <node id="8291180326920958632" at="33,0,50,0" concept="4" trace="createProperty_7o5gsr_a#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="8291180326920958630" at="25,26,26,18" />
+      <scope id="8291180326920958630" at="29,39,30,37" />
+      <scope id="8291180326920958630" at="18,91,20,18" />
+      <scope id="8291180326920958632" at="44,35,46,112">
+        <var name="manager" id="8291180326920958632" />
+      </scope>
+      <scope id="8291180326920958630" at="29,0,32,0" />
+      <scope id="8291180326920958630" at="18,0,22,0">
+        <var name="context" id="8291180326920958630" />
+        <var name="node" id="8291180326920958630" />
+      </scope>
+      <scope id="8291180326920958630" at="23,0,28,0" />
+      <scope id="8291180326920958632" at="33,48,48,22">
+        <var name="attributeConcept" id="8291180326920958632" />
+        <var name="editorCell" id="8291180326920958632" />
+        <var name="provider" id="8291180326920958632" />
+      </scope>
+      <scope id="8291180326920958632" at="33,0,50,0" />
+      <unit id="8291180326920958630" at="14,0,51,0" name="NewLanguage.editor.TestConcept_EditorBuilder_a" />
+    </file>
+  </root>
+</debug-info>
+
